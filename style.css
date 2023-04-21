@@ -1,6 +1,6 @@
 body{
 font-family: 'Roboto', sans-serif;
-height: 150vh;
+min-height: 100vh;
 scroll-behavior: smooth;
 
 }
@@ -13,6 +13,14 @@ scroll-behavior: smooth;
     height: 1rem;
 
 }
-.paralax{
+.height-80{
+    min-height:80vh;
+}
+#section-background{
     background-image: url(./assets/images/Fury-section-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(0.6);
 }
