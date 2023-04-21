@@ -1,3 +1,18 @@
 body{
-font-family: 'Roboto', sans-serif;;
+font-family: 'Roboto', sans-serif;
+height: 150vh;
+scroll-behavior: smooth;
+
+}
+
+#section-1{
+    filter: grayscale(0.5);
+}
+.underline{
+    width: 18rem;
+    height: 1rem;
+
+}
+.paralax{
+    background-image: url(./assets/images/Fury-section-bg.jpg);
 }
