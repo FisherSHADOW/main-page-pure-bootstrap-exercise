@@ -18,7 +18,7 @@ scroll-behavior: smooth;
     min-height:80vh;
 }
 #section-background{
-    background-image: url(/assets/images/wallpaper-group-edited.jpg);
+    background-image: url(./assets/images/wallpaper-group-edited.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
