@@ -21,17 +21,20 @@
     <!-- Heading -->
     <!-- navbar -->
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " >
-  <a class="navbar-brand m-5 h1 font-weight-bold p-0" href="#"><h1>Fury 2014</h1></a>
+    <nav class="navbar navbar-expand-lg navbar-dark p-0 bg-dark " >
+  <a class="navbar-brand m-5 h1 font-weight-bold p-0" href="#"><h1 class="text-danger" >Fury 2014</h1></a>
   <button class="navbar-toggler border-danger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
     <div class="navbar-nav text-center">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="##story">Story</a>
-      <a class="nav-item nav-link" href="#">Cast</a>
-      <a class="nav-item nav-link" href="#">Rewards</a>
+      <a class="nav-item nav-link" href="#story">Story</a>
+      <a class="nav-item nav-link" href="#cards">Cast</a>
+      <a class="nav-item nav-link" href="#rewards">Rewards</a>
+      <a class="nav-item nav-link" href="#album">Album</a>
+      <a class="nav-item nav-link" href="#summary">Summary</a>
+
       <a class="nav-item nav-link" href="#">search</a>
     </div>
     <nav class="navbar navbar-light  d-flex justify-content-center align-items-center">
@@ -49,10 +52,10 @@
 <!-- section2 -->
 <section class="section2 bg-white">
   <div class="container #story">
-    <h1 id="#story" class="  display-1 font-weight-bold text-center pt-5 pb-0 mb-0 mt-0 text- lead">Fury</h1>
-    <div class=" container-fluid mb-5 underline bg-danger"></div>
+    <h1 id="story" class="  display-1 font-weight-bold text-center pt-5 pb-0 mb-0 mt-0 text- lead">Fury</h1>
+    <div class=" container-fluid mb-1  underline bg-danger"></div>
     <div class=" w-25 h-25 bg-danger "></div>
-    <p class=" container-fluid col-8 font-weight-bold text-center text-dark h4
+    <p class=" container-fluid col-8 text-center text-dark h4
     p-5 pt-0">
       April, 1945. As the Allies make their final push in the European Theatre, a battle-hardened army sergeant named Wardaddy (Brad Pitt) commands a Sherman tank and her five-man crew on a deadly mission behind enemy lines. Outnumbered and outgunned, and with a rookie soldier thrust into their platoon, Wardaddy and his men face overwhelming odds in their heroic attempts to strike at the heart of Nazi Germany. </p>
   </div>
@@ -63,16 +66,16 @@
     <div class="container-fluid">
       <div class="row">
       <!-- paralax img -->
-      <div id="section-background" class=" m-0 p-0 col-md-6 col-lg-6 col-xl-6 paralax-img height-80"></div>
+      <div id="section-background" class=" m-0 p-0 col-md-6 col-lg-8 col-xl-8 paralax-img height-80"></div>
       <!-- paralax text -->
-      <div class="col-md-3 m-lg-auto paralax-text px-5 flex-column align-items-center justify-content-center height-80">
+      <div class="col-md-2 m-5 paralax-text px-5 flex-column align-items-center justify-content-center height-80">
       <!-- title -->
       <div class="row"></div>
       <div class="col text-center"></div>
-      <p class="display-3 text-uppercase text-white mt-5">
+      <p class="display-3 text-light font-weight-bold text-left pt-5 pb-0 mb-0 mt-0 text- lead">
         Wardaddy:
       </p>
-      <div class="underline w-80 bg-danger "></div>
+      <div class="underline ml-4 w-85 bg-danger"></div>
       <p class="display-4 text-uppercase text-white mb0 mt-5 ml-4">
         Ideals are peaceful<br>
         History is violent.
@@ -146,14 +149,15 @@
   <div class="clearfix"></div>
 <!-- end of cards  -->
 <!-- awards table  -->
-<div class="container-fluid w-50">
+<div id="rewards" class="container-fluid my-5 w-75">
 <div class="row justify-content-center mt-5"> 
-  <p class="display-2 text-center">List of awards</p></div>
+  <p class="display-2 text-center font-weight-bold">List of awards</p></div>
+  <div class="underline w-100 bg-danger mx-auto"></div>
   <table class="table table-striped">
     <thead>
       <tr>
         <th scope="col">#</th>
-        <th scope="col">Hollywood Film Awards	</th>
+        <th scope="col">Award / Film Festival	</th>
         <th scope="col">Category</th>
         <th scope="col">Recipients</th>
       </tr>
@@ -189,7 +193,8 @@
 <!-- end of awards -->
 
 <!-- carousel -->
-<section id="carousel" class="bg-dark">
+<section id="album" class="bg-dark">
+  
   <div class="container bg-dark">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -232,40 +237,46 @@
       <strong class="display-4 text-light font-weight-bold "><br>Audience rating summary</strong></div>
         <div class="container mx-auto mt-5 w-50">
         <div class="progress bg-transparent m-1">
-          <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <div class="progress bg-transparent m-1">
-          <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <div class="progress bg-transparent m-1">
-          <div class="progress-bar bg-warning" role="progressbar" style="width: 10%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <div class="progress bg-transparent m-1">
           <div class="progress-bar bg-warning" role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
 
       </div> 
-      
+
       <!-- end of progress -->
 <section id="summary" class="d-flex justify-content-center mt-4">
   <div class="row">
-    <i class="mx-2 display-4 text-warning fa-brands fa-imdb"></i>
-    <p class="mx-2 text-light h5 mt-3">IMDB Rating: 7.5/10</p>
-    <i class="mx-2 display-4 text-warning fa-solid fa-square-poll-vertical"></i>
-    <p class="mx-2 text-light h5 mt-3">IMDB Rating: 7.5/10</p>
-    <i class="mx-2 display-4 text-warning fa-regular fa-eye"></i>
-    <p class="mx-2 text-light h5 mt-3">IMDB Rating: 7.5/10</p>
+    <i class="mx-1 display-4 text-warning fa-brands fa-imdb"></i>
+    <p class="mx-1 text-light h5 mt-1">IMDB Rating: 7.5/10</p>
+    <i class="mx-1 display-4 text-warning fa-solid fa-square-poll-vertical"></i>
+    <p class="mx-1 text-light h5 mt-1">Rotton tomato: 76%</p>
+    <i class="mx-1 display-4 text-warning fa-regular fa-eye"></i>
+    <p class="mx-1 text-light h5 mt-1">Parrent reviews: 1.5/5</p>
   </div>
 </section>
 </section>
 
-<section class="mt-5">
+<footer class="mt-0">
   <div class="row bg-dark">
-    <div class="col">
-      <p>asdasdasd asdasdasdas</p>
+ <div class="col">
+  <div id="attribbution" class="attribution text-center text-white">
+    </a> Coded by : 
+    <a class="text-danger" href="https://github.com/FisherSHADOW?tab=repositories">FisherSHADOW  
+    </a>
+</div>
+
+  </div>
     </div>
   </div>
-</section>
+</footer>
 
 
 
