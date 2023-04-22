@@ -1,6 +1,7 @@
 body{
 font-family: 'Roboto', sans-serif;
 min-height: 100vh;
+height: 1000vh;
 scroll-behavior: smooth;
 
 }
@@ -23,4 +24,11 @@ scroll-behavior: smooth;
     background-position: center;
     background-attachment: fixed;
     filter: grayscale(0.6);
+}
+#progrress-bg{
+    background: linear-gradient (rgba (0,0, 0,.5),rgba(0,0,0,.5));
+    background-image: url(/assets/images/BG-Fury\ header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
