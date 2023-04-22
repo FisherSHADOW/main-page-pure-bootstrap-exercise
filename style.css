@@ -25,10 +25,9 @@ scroll-behavior: smooth;
     background-attachment: fixed;
     filter: grayscale(0.6);
 }
-#progrress-bg{
-    background: linear-gradient (rgba (0,0, 0,.5),rgba(0,0,0,.5));
+/* #progrress-bg{
     background-image: url(/assets/images/BG-Fury\ header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-}
+    background-position: fixed;
+} */
