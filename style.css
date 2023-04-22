@@ -1,7 +1,7 @@
 body{
 font-family: 'Roboto', sans-serif;
 min-height: 100vh;
-height: 1000vh;
+height: 100vh;
 scroll-behavior: smooth;
 
 }
@@ -29,5 +29,5 @@ scroll-behavior: smooth;
     background-image: url(/assets/images/BG-Fury\ header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
 } */
