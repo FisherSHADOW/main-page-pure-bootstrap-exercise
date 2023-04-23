@@ -10,6 +10,7 @@ scroll-behavior: smooth;
 .underline{
     width: 18rem;
     height: 0.4rem;
+    background-color: #d43b3b !important ;
 }
 .height-80{
     min-height:80vh;
@@ -37,7 +38,7 @@ header a{
 }
 header a:hover{
     /* line-height: 10px !important; */
-    border-bottom: 2px red solid !important;
+    border-bottom: 2px #d43b3b solid !important;
     padding: 2px;
 
 }
