@@ -34,9 +34,12 @@ scroll-behavior: smooth;
 i{
     font-size: 2rem !important;
 }
-a:hover{
-    text-decoration: underline!important;
-    text-decoration-color:red !important;
+header a:hover{
+    /* line-height: 10px !important; */
+    border-bottom: 2px red solid !important;
+}
+header .h1:hover{
+    border-bottom: none !important;
 }
 #attribbution{
     opacity: 0.8;
