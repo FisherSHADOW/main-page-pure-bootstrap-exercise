@@ -31,9 +31,15 @@ scroll-behavior: smooth;
 i{
     font-size: 2rem !important;
 }
+header a{
+    border-bottom: none;
+    
+}
 header a:hover{
     /* line-height: 10px !important; */
     border-bottom: 2px red solid !important;
+    padding: 2px;
+
 }
 header .h1:hover{
     border-bottom: none !important;
