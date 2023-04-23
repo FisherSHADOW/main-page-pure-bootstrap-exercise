@@ -3,16 +3,13 @@ font-family: 'Roboto', sans-serif;
 min-height: 100vh;
 height: 100vh;
 scroll-behavior: smooth;
-
 }
-
 #section-1{
     filter: grayscale(0.5);
 }
 .underline{
     width: 18rem;
     height: 0.4rem;
-
 }
 .height-80{
     min-height:80vh;
